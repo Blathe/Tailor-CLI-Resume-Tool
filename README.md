@@ -1,6 +1,6 @@
 # Tailor - A simple CLI resume tailor.
 
-Tailor was born mainly to prevent my from going insane by tailoring my resume for every single job posting I was applying for.
+Tailor was born mainly to prevent me from going insane by tailoring my resume for every single job posting I was applying for.
 
 With this tool, you can easily list all of your skills, education, past jobs, etc. and it will generate a tailored resume using whatever information you provide it that closest matches the job posting.
 
