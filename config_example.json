@@ -1,0 +1,37 @@
+{
+  "api_key": "YOUR-OPENAI-API-KEY",
+  "resume_file_name": "EXAMPLE RESUME NAME",
+  "user_info": {
+    "desired_job_title": "Software Engineer",
+    "years_of_experience": 5,
+    "address": "123 Your Address",
+    "address_2": "",
+    "city": "Your City",
+    "state": "State",
+    "phone": "111-111-1111",
+    "email": "test@example.com",
+    "github_link": "www.github.com/example",
+    "website_link": "www.exampleportfolio.com",
+    "linkedin_link": "www.linkedin.com/u/example",
+    "education": {
+      "degree": "B.S. - Software Engineering",
+      "school": "My University"
+    },
+    "skills_pool": ["C#", "SQL", "Low-Code Tools", "Python", "Git", "Customer Service", "Reporting", "Microsoft Office", "Google Suite"],
+    "certifications": ["CompTIA Project+", "ITIL Foundations", "AWS Cloud Practitioner"],
+    "previous_jobs": {
+      "Operations Engineer": {
+        "From": "Nov. 2018",
+        "To": "Jun. 2025",
+        "Employer": "Example Employer 1",
+        "Duties": "I was responsible for discovering and implementing new technology within an e-commerce, warehousing, and manufacturing environment. I trained end users and helped with software requirements."
+      },
+      "Coda.io Software Engineer": {
+        "From": "Apr. 2025",
+        "To": "May 2025",
+        "Employer": "Example Employer 2",
+        "Duties": "I was brought on to help architect the data side of a project being developed in Coda.io, a low-code SaaS platform. I wrote formulas, and architected the database structures for the project."
+      }
+    }
+  }
+}
