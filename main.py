@@ -12,8 +12,11 @@ try:
     user_info = data['user_info']
 
     print("Tailor - easily tailor your resume to fit any job posting.")
-    print("Enter a link to the job posting below, and I will tailor your resume to fit the posting.")
+    print("Enter a link to the target job posting below.")
     link = input("Link:")
+
+
+    print("Generating...")
 
     client = OpenAI(
       api_key=data['api_key']
@@ -34,11 +37,11 @@ try:
             f"Do not add any unnecessary sections that do not exist in the user info section.",
     )
 
-    print("Generating...")
+    file_name = input("Enter a name for your resume:")
 
     pdf = MarkdownPdf()
     pdf.add_section(Section(response.output_text))
-    pdf.save(f"{data["resume_file_name"]}.pdf")
+    pdf.save(f"{file_name}.pdf")
 
     print("Your resume has been generated!")
 

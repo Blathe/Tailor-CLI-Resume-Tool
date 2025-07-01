@@ -1,7 +1,7 @@
 {
   "api_key": "YOUR-OPENAI-API-KEY",
-  "resume_file_name": "EXAMPLE RESUME NAME",
   "user_info": {
+    "name": "First Last",
     "desired_job_title": "Software Engineer",
     "years_of_experience": 5,
     "address": "123 Your Address",

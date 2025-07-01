@@ -7,7 +7,9 @@ With this tool, you can easily list all of your skills, education, past jobs, et
 ## How to use
 
 1. Clone the repo
-2. Install requirements - `pip install -r requirements.txt`
+2. `python -m venv venv`
+3. `venv\scripts\activate` or `source venv/bin/activate`
+2. Install packages - `pip install -r requirements.txt`
 3. Rename the config_example.json file to config.json
 4. Fill out the config file information with your own info and OpenAI API key.
 5. Run Tailor, and paste a job posting link when it asks for one.
@@ -21,6 +23,5 @@ Is it perfect? No, not really. But I feel it can give you a good starting point 
 ## Future features
 
 1. Reading info from an existing resume instead of having to manually fill out the config.
-2. Some better (anything is better than none) error checking.
-3. Allowing users to name the resume before it's generated. (currently it's just a config option)
-
+2. Error checking, things like invalid urls, etc.
+3. More prompt tweaking to generate better results consistently.
